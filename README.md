@@ -1,5 +1,5 @@
 # INDUS_Newsletter_Resources
-Contains some python script to semi-automate partially the process of INDUS Newsletter content generation.
+Contains some python script to semi-automate partially the process of [INDUS Newsletter](https://sites.google.com/view/indus-solphys/resources/newsletters?authuser=0) content generation.
 
 
 ## Jobs and Opportunities
