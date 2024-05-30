@@ -25,8 +25,8 @@ def latexscript():
         if df.Issue[i]==issue:
             if str(df.Position[i])!='nan':
                 print('\n\n'+'----------------------'+df.Position[i]+'----------------------'+'\n\n')
-            print( "\item \href{" + df["Link"][i] + "}{" + df["About"][i] + "}" + " --- " + df["Location"][i]
-                  + " --- Application deadline: " + df["Application Deadline"][i] + "\n")
+            print( "\item \href{" + str(df["Link"][i]) + "}{" + str(df["About"][i]) + "}" + " --- " + str(df["Location"][i])
+                  + " --- Application deadline: " + str(df["Application Deadline"][i]) + "\n")
         else:
             print('No entry found!')
 
